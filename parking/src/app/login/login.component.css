@@ -1,0 +1,31 @@
+.toolbar{
+  text-align: center;
+  font-weight: 600;
+  font-size: 40px;
+  color: orangered
+}
+
+.form-card{
+  margin: 20px 0;
+  position: absolute;
+  left: 15%;
+  right: 15%;
+  background: #d3d3d3;
+  padding: 50px 60px;
+}
+@media screen and (max-width: 425px){
+  .form-card{
+    left: 5%;
+    right: 5%;
+  }
+}
+
+.form-card p{
+  font-weight: 300;
+  font-size: 30px;
+  color: red;
+  text-align: center
+}
+mat-form-field{
+  width: 100%;
+}
